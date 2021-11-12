@@ -36,7 +36,8 @@
   /*Animation and starting image*/
   --Image-URL: url('https://images.alphacoders.com/632/632525.png');
   animation-name: example;
-  animation-duration: 700s;
+  /*this is the duration of the animation*/
+  animation-duration: 100s;
   animation-iteration-count: infinite;
 /* Background image variables */
   --background-image: var(--Image-URL); /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
