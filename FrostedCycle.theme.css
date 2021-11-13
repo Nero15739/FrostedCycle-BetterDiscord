@@ -1,7 +1,7 @@
 /**
  * @name Frosted Cycle
  * @author Nèro
- * @version 1.0.0
+ * @version 1.0.3
  * @description Cycles a set of pictures of choice with adjustable blur and brightness. Dark theme is required. This is based off the Frosted Glass theme by Gibbu#1211
 */
 
@@ -16,12 +16,12 @@
 
 
 @keyframes example {
-  /*Used for A set of multiple Images*/
+  /*Used for a set of 2 Images*/
   /*
    from {--Image-URL: url('https://images.alphacoders.com/632/632525.png');}
   to { --Image-URL: url('https://images3.alphacoders.com/614/thumb-1920-614743.png');}
  */
-  /*Used for a set of image*/
+  /*Used for a set of multiple image*/
   0%   {--Image-URL: url('https://images.alphacoders.com/632/632525.png');}  
   25%  { --Image-URL: url('https://images.alphacoders.com/598/598846.jpg');}
   50%  { --Image-URL: url('https://images3.alphacoders.com/614/thumb-1920-614743.png');}
@@ -39,6 +39,7 @@
   /*this is the duration of the animation*/
   animation-duration: 100s;
   animation-iteration-count: infinite;
+  animation-direction: normal; /* This determins the direction. Normal = normal, reverse = opposite direction, alternate = switchs between normal and reverse, reverse alternate = starts on the reverse*/
 /* Background image variables */
   --background-image: var(--Image-URL); /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
   
