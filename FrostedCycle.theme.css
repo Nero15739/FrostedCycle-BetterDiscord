@@ -18,8 +18,8 @@
 @keyframes example {
   /*Used for A set of multiple Images*/
   /*
-   from {background-color: red;}
-  to {background-color: yellow;}
+   from {--Image-URL: url('https://images.alphacoders.com/632/632525.png');}
+  to { --Image-URL: url('https://images3.alphacoders.com/614/thumb-1920-614743.png');}
  */
   /*Used for a set of image*/
   0%   {--Image-URL: url('https://images.alphacoders.com/632/632525.png');}  
